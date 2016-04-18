@@ -14,10 +14,15 @@ pt:
   flash:
     alert:
       needs_login: "Você precisa estar logado para continuar"
+      room_blocked: 'Cuidado!! Este quarto não pertence a você!!'
+      error_login: 'Email ou senha inválido(s)!!'
     notice:
       signed_in: 'Login efetuado com sucesso!'
       signed_out: 'Logout efetuado com sucesso. Até logo!'
       already_logged_in: "Você já está logado."
+      room_updated: 'Seu quarto foi atualizado'
+      room_created: 'Quarto Criado com sucesso!'
+
 
   signup:
     confirm_email:

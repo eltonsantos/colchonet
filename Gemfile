@@ -15,6 +15,10 @@ gem 'coffee-rails', '~> 4.1.0'
 gem 'therubyracer', platforms: :ruby
 
 gem 'font-awesome-rails'
+gem 'friendly_id', '5.0.3'
+gem 'kaminari'
+gem 'carrierwave', '0.10.0'
+gem 'rmagick', :require => 'RMagick'
 
 # Use jquery as the JavaScript library
 gem 'jquery-rails'

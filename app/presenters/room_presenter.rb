@@ -60,6 +60,6 @@ class RoomPresenter
   end
 
   def has_picture?
-    #@room.picture?
+    @room.picture?
   end
 end

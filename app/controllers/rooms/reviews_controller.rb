@@ -1,5 +1,5 @@
 class Rooms::ReviewsController < ApplicationController
-  before_action :require_authentication
+  before_filter :require_authentication
 
   def create
     review = room.reviews.find_or_initialize_by(user_id: current_user.id)
